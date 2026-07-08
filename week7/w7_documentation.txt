@@ -1,0 +1,4 @@
+The program uses to {:.2f} format the output even when calculate_total() returns a string such as "invalid price" or "invalid quantity". This causes a TypeError.
+
+solution:
+Check whether the returned value is a string before formatting it as a float.
