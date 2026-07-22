@@ -20,4 +20,6 @@ Low = Ali
 ## status
 Every created ticket is assigned the status (Pending)
 
-![alt text](<تسجيل 2026-07-22 122342.gif>)
+##  Demo :
+
+![alt text](ezgif-219dceaa3e1c4bae.gif)
