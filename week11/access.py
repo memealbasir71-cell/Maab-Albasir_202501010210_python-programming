@@ -1,17 +1,19 @@
 def check_access(registered, lab_open, computer_available):
 
     if registered == "Y" and lab_open == "Y" and computer_available == "Y":
-        return "access granted"
+        return "Access Granted"
     else:
-        return "access deniad"
+        return "Access Denied"
+
 
 def get_reason(registered, lab_open, computer_available):
 
     if registered != "Y":
-        return "student is not registerd"
+        return "Student is not registered."
     elif lab_open != "Y":
-        return "computer lab is closed"
+        return "Computer lab is closed."
     elif computer_available != "Y":
-        return " no available computer"
+        return "No available computer."
     else:
-        return "welcome to lab"
+        "welcome to the lab"
+        

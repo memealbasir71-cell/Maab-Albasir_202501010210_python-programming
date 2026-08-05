@@ -9,6 +9,5 @@ def main():
     reason = get_reason(registered, lab_open, computer_available)
 
     print_result(name, student_id, status, reason)
-
 if __name__ == "__main__":
     main()
